@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .box{
+        height: 400px;
+        width: 400px;
+        background-color: aqua;
+        border: 3px dashed black;
+        display: flex;
+        flex-direction: row;
+        padding: 2px;
+        margin: 10px;
+    }
+   
+   #books{
+    background-color: sandybrown;
+    border: 1px solid darkgoldenrod;
+    margin: 3px;
+    padding: 2px;
+   }
+    #resturant{
+        height: 400px;
+        width: 400px;
+        background-color: hotpink;
+        border: 3px dashed black;
+        margin: 3px;
+        padding: 2px;
+        
+    }
+    #maths{
+        height: 400px;
+        width: 400px;
+        background-color: lavender;
+        border: 3px dashed black;
+       margin: 3px;
+       padding: 2px;
+    }
+    
+    p{
+        border: 1px solid blue;
+    }
+    @media(max-width:640px){
+        .container{
+            flex-direction: column;
+        }
+    }
+
+   </style>
+</head>
+<body>
+    <div class="box">
+        <div id="books">
+            <img src="BookOfLove.webp" alt="Books" width="400px" height="350px">
+            <p class="float"><strong>Same Library , New Website</strong></p>
+        </div>
+      
+    
+    <div id="resturant">
+        <img src="Restrurant.webp" alt="Restrurant" height="300px" width="400px">
+        <p><strong>Enjoy Your Delicious Meal</strong>
+            <br>
+    <button>Book Your Table</button></p>
+    
+    <div id="maths">
+        <img src="maths.webp" alt="maths" height="300px" width="400px">
+        <p><strong>MATHS</strong>
+            <br>
+        <button>Read More</button>
+        
+    </p>
+    </div>
+    
+
+</div>
+</div>
+</body>
+</html>
